@@ -39,7 +39,7 @@ include 'header.php';
             <input type="submit" class="mainBtn" id="submit" value="Send Message">
         </form>
     </div>
-    
+    <!-- form.php -->
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = htmlspecialchars($_POST['name']);
